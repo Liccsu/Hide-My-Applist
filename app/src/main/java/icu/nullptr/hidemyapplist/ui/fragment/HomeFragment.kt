@@ -1,4 +1,4 @@
-package icu.nullptr.hidemyapplist.ui.fragment
+package icu.nullptr.hdapp.ui.fragment
 
 import android.content.Intent
 import android.net.Uri
@@ -16,20 +16,20 @@ import by.kirich1409.viewbindingdelegate.viewBinding
 import com.google.android.gms.ads.AdRequest
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.android.material.transition.MaterialElevationScale
-import com.tsng.hidemyapplist.BuildConfig
-import com.tsng.hidemyapplist.R
-import com.tsng.hidemyapplist.databinding.FragmentHomeBinding
-import icu.nullptr.hidemyapplist.data.fetchLatestUpdate
-import icu.nullptr.hidemyapplist.hmaApp
-import icu.nullptr.hidemyapplist.service.ConfigManager
-import icu.nullptr.hidemyapplist.service.PrefManager
-import icu.nullptr.hidemyapplist.service.ServiceClient
-import icu.nullptr.hidemyapplist.ui.activity.AboutActivity
-import icu.nullptr.hidemyapplist.ui.util.ThemeUtils.getColor
-import icu.nullptr.hidemyapplist.ui.util.ThemeUtils.themeColor
-import icu.nullptr.hidemyapplist.ui.util.makeToast
-import icu.nullptr.hidemyapplist.ui.util.navController
-import icu.nullptr.hidemyapplist.ui.util.setupToolbar
+import com.example.hdapp.BuildConfig
+import com.example.hdapp.R
+import com.example.hdapp.databinding.FragmentHomeBinding
+import icu.nullptr.hdapp.data.fetchLatestUpdate
+import icu.nullptr.hdapp.hmaApp
+import icu.nullptr.hdapp.service.ConfigManager
+import icu.nullptr.hdapp.service.PrefManager
+import icu.nullptr.hdapp.service.ServiceClient
+import icu.nullptr.hdapp.ui.activity.AboutActivity
+import icu.nullptr.hdapp.ui.util.ThemeUtils.getColor
+import icu.nullptr.hdapp.ui.util.ThemeUtils.themeColor
+import icu.nullptr.hdapp.ui.util.makeToast
+import icu.nullptr.hdapp.ui.util.navController
+import icu.nullptr.hdapp.ui.util.setupToolbar
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -152,7 +152,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             binding.moduleStatus.setText(R.string.home_xposed_not_activated)
         }
         if (serviceVersion != 0) {
-            if (serviceVersion < icu.nullptr.hidemyapplist.common.BuildConfig.SERVICE_VERSION) {
+            if (serviceVersion < icu.nullptr.hdapp.common.BuildConfig.SERVICE_VERSION) {
                 binding.serviceStatus.text = getString(R.string.home_xposed_service_old)
             } else {
                 binding.serviceStatus.text = getString(R.string.home_xposed_service_on, serviceVersion)

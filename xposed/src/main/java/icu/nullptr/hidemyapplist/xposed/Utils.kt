@@ -1,4 +1,4 @@
-package icu.nullptr.hidemyapplist.xposed
+package icu.nullptr.hdapp.xposed
 
 import android.content.pm.ApplicationInfo
 import android.content.pm.IPackageManager
@@ -8,7 +8,7 @@ import android.os.Build
 import com.android.apksig.ApkVerifier
 import com.github.kyuubiran.ezxhelper.utils.invokeMethodAutoAs
 import de.robv.android.xposed.XposedHelpers
-import icu.nullptr.hidemyapplist.Magic
+import icu.nullptr.hdapp.Magic
 import java.io.File
 import java.util.*
 

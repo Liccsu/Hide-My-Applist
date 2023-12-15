@@ -1,8 +1,8 @@
-package icu.nullptr.hidemyapplist.ui.util
+package icu.nullptr.hdapp.ui.util
 
 import android.widget.Toast
 import androidx.annotation.StringRes
-import icu.nullptr.hidemyapplist.hmaApp
+import icu.nullptr.hdapp.hmaApp
 
 fun makeToast(@StringRes resId: Int) {
     Toast.makeText(hmaApp, resId, Toast.LENGTH_SHORT).show()

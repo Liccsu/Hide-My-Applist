@@ -1,4 +1,4 @@
-package icu.nullptr.hidemyapplist.ui.fragment
+package icu.nullptr.hdapp.ui.fragment
 
 import android.os.Bundle
 import android.view.MenuItem
@@ -9,14 +9,14 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import by.kirich1409.viewbindingdelegate.viewBinding
-import com.tsng.hidemyapplist.R
-import com.tsng.hidemyapplist.databinding.FragmentLogsBinding
-import icu.nullptr.hidemyapplist.hmaApp
-import icu.nullptr.hidemyapplist.service.PrefManager
-import icu.nullptr.hidemyapplist.service.ServiceClient
-import icu.nullptr.hidemyapplist.ui.adapter.LogAdapter
-import icu.nullptr.hidemyapplist.ui.util.makeToast
-import icu.nullptr.hidemyapplist.ui.util.setupToolbar
+import com.example.hdapp.R
+import com.example.hdapp.databinding.FragmentLogsBinding
+import icu.nullptr.hdapp.hmaApp
+import icu.nullptr.hdapp.service.PrefManager
+import icu.nullptr.hdapp.service.ServiceClient
+import icu.nullptr.hdapp.ui.adapter.LogAdapter
+import icu.nullptr.hdapp.ui.util.makeToast
+import icu.nullptr.hdapp.ui.util.setupToolbar
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
 import java.util.*

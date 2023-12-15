@@ -10,7 +10,7 @@ val serviceVerCode: Int by rootProject.extra
 val minBackupVerCode: Int by rootProject.extra
 
 android {
-    namespace = "icu.nullptr.hidemyapplist.common"
+    namespace = "icu.nullptr.hdapp.common"
 
     defaultConfig {
         buildConfigField("int", "CONFIG_VERSION", configVerCode.toString())

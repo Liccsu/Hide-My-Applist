@@ -1,12 +1,12 @@
-package icu.nullptr.hidemyapplist.xposed
+package icu.nullptr.hdapp.xposed
 
 import android.content.pm.IPackageManager
 import android.os.Binder
 import android.os.Parcel
 import com.github.kyuubiran.ezxhelper.utils.findMethod
 import com.github.kyuubiran.ezxhelper.utils.hookBefore
-import icu.nullptr.hidemyapplist.common.BuildConfig
-import icu.nullptr.hidemyapplist.common.Constants
+import icu.nullptr.hdapp.common.BuildConfig
+import icu.nullptr.hdapp.common.Constants
 
 object BridgeService {
 

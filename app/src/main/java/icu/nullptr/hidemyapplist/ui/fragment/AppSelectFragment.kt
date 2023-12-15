@@ -1,4 +1,4 @@
-package icu.nullptr.hidemyapplist.ui.fragment
+package icu.nullptr.hdapp.ui.fragment
 
 import android.os.Bundle
 import android.view.MenuItem
@@ -11,13 +11,13 @@ import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.google.android.gms.ads.AdRequest
-import com.tsng.hidemyapplist.R
-import com.tsng.hidemyapplist.databinding.FragmentAppSelectBinding
-import icu.nullptr.hidemyapplist.service.PrefManager
-import icu.nullptr.hidemyapplist.ui.adapter.AppSelectAdapter
-import icu.nullptr.hidemyapplist.ui.util.navController
-import icu.nullptr.hidemyapplist.ui.util.setupToolbar
-import icu.nullptr.hidemyapplist.util.PackageHelper
+import com.example.hdapp.R
+import com.example.hdapp.databinding.FragmentAppSelectBinding
+import icu.nullptr.hdapp.service.PrefManager
+import icu.nullptr.hdapp.ui.adapter.AppSelectAdapter
+import icu.nullptr.hdapp.ui.util.navController
+import icu.nullptr.hdapp.ui.util.setupToolbar
+import icu.nullptr.hdapp.util.PackageHelper
 import kotlinx.coroutines.launch
 
 abstract class AppSelectFragment : Fragment(R.layout.fragment_app_select) {

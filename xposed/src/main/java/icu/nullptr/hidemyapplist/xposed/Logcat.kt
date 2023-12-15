@@ -1,4 +1,4 @@
-package icu.nullptr.hidemyapplist.xposed
+package icu.nullptr.hdapp.xposed
 
 import android.util.Log
 import de.robv.android.xposed.XposedBridge

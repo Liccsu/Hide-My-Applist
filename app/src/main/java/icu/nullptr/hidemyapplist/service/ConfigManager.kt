@@ -1,12 +1,12 @@
-package icu.nullptr.hidemyapplist.service
+package icu.nullptr.hdapp.service
 
 import android.os.Build
 import android.util.Log
-import com.tsng.hidemyapplist.R
-import icu.nullptr.hidemyapplist.common.BuildConfig
-import icu.nullptr.hidemyapplist.common.JsonConfig
-import icu.nullptr.hidemyapplist.hmaApp
-import icu.nullptr.hidemyapplist.ui.util.makeToast
+import com.example.hdapp.R
+import icu.nullptr.hdapp.common.BuildConfig
+import icu.nullptr.hdapp.common.JsonConfig
+import icu.nullptr.hdapp.hmaApp
+import icu.nullptr.hdapp.ui.util.makeToast
 import java.io.File
 
 object ConfigManager {

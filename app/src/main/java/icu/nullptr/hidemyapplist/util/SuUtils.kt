@@ -1,4 +1,4 @@
-package icu.nullptr.hidemyapplist.util
+package icu.nullptr.hdapp.util
 
 import com.topjohnwu.superuser.Shell
 

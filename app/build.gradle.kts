@@ -18,7 +18,7 @@ if (officialBuild) {
 }
 
 android {
-    namespace = "com.tsng.hidemyapplist"
+    namespace = "com.example.hdapp"
 
     buildFeatures {
         viewBinding = true
@@ -40,7 +40,7 @@ android {
 autoResConfig {
     generateClass.set(true)
     generateRes.set(false)
-    generatedClassFullName.set("icu.nullptr.hidemyapplist.util.LangList")
+    generatedClassFullName.set("icu.nullptr.hdapp.util.LangList")
     generatedArrayFirstItem.set("SYSTEM")
 }
 

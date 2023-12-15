@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.tsng.hidemyapplist">
+    package="com.example.hdapp">
 
     <uses-permission
         android:name="android.permission.QUERY_ALL_PACKAGES"
@@ -10,7 +10,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name="icu.nullptr.hidemyapplist.MyApp"
+        android:name="icu.nullptr.hdapp.MyApp"
         android:allowBackup="true"
         android:fullBackupOnly="true"
         android:icon="@mipmap/ic_launcher"
@@ -20,10 +20,10 @@
         android:theme="@style/AppTheme">
 
         <activity
-            android:name="icu.nullptr.hidemyapplist.ui.activity.AboutActivity"
+            android:name="icu.nullptr.hdapp.ui.activity.AboutActivity"
             android:theme="@style/AppTheme.About" />
         <activity
-            android:name="icu.nullptr.hidemyapplist.ui.activity.MainActivity"
+            android:name="icu.nullptr.hdapp.ui.activity.MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustPan">
             <intent-filter>
@@ -36,7 +36,7 @@
             android:name=".MainActivityLauncher"
             android:exported="true"
             android:label="@string/app_name"
-            android:targetActivity="icu.nullptr.hidemyapplist.ui.activity.MainActivity">
+            android:targetActivity="icu.nullptr.hdapp.ui.activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

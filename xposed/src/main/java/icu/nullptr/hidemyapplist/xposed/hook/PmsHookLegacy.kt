@@ -1,4 +1,4 @@
-package icu.nullptr.hidemyapplist.xposed.hook
+package icu.nullptr.hdapp.xposed.hook
 
 import android.content.ComponentName
 import android.content.Intent
@@ -6,12 +6,12 @@ import com.github.kyuubiran.ezxhelper.utils.hookAfter
 import com.github.kyuubiran.ezxhelper.utils.invokeMethodAs
 import com.github.kyuubiran.ezxhelper.utils.loadClass
 import de.robv.android.xposed.XC_MethodHook
-import icu.nullptr.hidemyapplist.common.Constants
-import icu.nullptr.hidemyapplist.xposed.HMAService
-import icu.nullptr.hidemyapplist.xposed.Utils
-import icu.nullptr.hidemyapplist.xposed.Utils.getBinderCaller
-import icu.nullptr.hidemyapplist.xposed.logD
-import icu.nullptr.hidemyapplist.xposed.logI
+import icu.nullptr.hdapp.common.Constants
+import icu.nullptr.hdapp.xposed.HMAService
+import icu.nullptr.hdapp.xposed.Utils
+import icu.nullptr.hdapp.xposed.Utils.getBinderCaller
+import icu.nullptr.hdapp.xposed.logD
+import icu.nullptr.hdapp.xposed.logI
 import java.lang.reflect.Method
 
 class PmsHookLegacy(private val service: HMAService) : IFrameworkHook {

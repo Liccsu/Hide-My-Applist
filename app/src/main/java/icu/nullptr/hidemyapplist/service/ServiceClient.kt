@@ -1,12 +1,12 @@
-package icu.nullptr.hidemyapplist.service
+package icu.nullptr.hdapp.service
 
 import android.os.IBinder.DeathRecipient
 import android.os.Parcel
 import android.os.RemoteException
 import android.os.ServiceManager
 import android.util.Log
-import icu.nullptr.hidemyapplist.common.Constants
-import icu.nullptr.hidemyapplist.common.IHMAService
+import icu.nullptr.hdapp.common.Constants
+import icu.nullptr.hdapp.common.IHMAService
 import java.lang.reflect.InvocationHandler
 import java.lang.reflect.Method
 import java.lang.reflect.Proxy

@@ -1,4 +1,4 @@
-package icu.nullptr.hidemyapplist.ui.fragment
+package icu.nullptr.hdapp.ui.fragment
 
 import android.content.Intent
 import android.os.Build
@@ -14,18 +14,18 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.preference.SwitchPreference
 import by.kirich1409.viewbindingdelegate.viewBinding
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.tsng.hidemyapplist.R
-import com.tsng.hidemyapplist.databinding.FragmentSettingsBinding
-import icu.nullptr.hidemyapplist.common.CommonUtils
-import icu.nullptr.hidemyapplist.common.Constants
-import icu.nullptr.hidemyapplist.hmaApp
-import icu.nullptr.hidemyapplist.service.ConfigManager
-import icu.nullptr.hidemyapplist.service.PrefManager
-import icu.nullptr.hidemyapplist.service.ServiceClient
-import icu.nullptr.hidemyapplist.ui.util.makeToast
-import icu.nullptr.hidemyapplist.ui.util.setupToolbar
-import icu.nullptr.hidemyapplist.util.LangList
-import icu.nullptr.hidemyapplist.util.SuUtils
+import com.example.hdapp.R
+import com.example.hdapp.databinding.FragmentSettingsBinding
+import icu.nullptr.hdapp.common.CommonUtils
+import icu.nullptr.hdapp.common.Constants
+import icu.nullptr.hdapp.hmaApp
+import icu.nullptr.hdapp.service.ConfigManager
+import icu.nullptr.hdapp.service.PrefManager
+import icu.nullptr.hdapp.service.ServiceClient
+import icu.nullptr.hdapp.ui.util.makeToast
+import icu.nullptr.hdapp.ui.util.setupToolbar
+import icu.nullptr.hdapp.util.LangList
+import icu.nullptr.hdapp.util.SuUtils
 import rikka.material.app.DayNightDelegate
 import rikka.material.app.LocaleDelegate
 import rikka.preference.SimpleMenuPreference

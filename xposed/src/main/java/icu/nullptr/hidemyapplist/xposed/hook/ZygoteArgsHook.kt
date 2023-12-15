@@ -1,15 +1,15 @@
-package icu.nullptr.hidemyapplist.xposed.hook
+package icu.nullptr.hdapp.xposed.hook
 
 import android.annotation.TargetApi
 import android.os.Build
 import com.github.kyuubiran.ezxhelper.utils.findMethod
 import com.github.kyuubiran.ezxhelper.utils.hookBefore
 import de.robv.android.xposed.XC_MethodHook
-import icu.nullptr.hidemyapplist.common.CommonUtils
-import icu.nullptr.hidemyapplist.common.Constants.*
-import icu.nullptr.hidemyapplist.xposed.HMAService
-import icu.nullptr.hidemyapplist.xposed.logE
-import icu.nullptr.hidemyapplist.xposed.logI
+import icu.nullptr.hdapp.common.CommonUtils
+import icu.nullptr.hdapp.common.Constants.*
+import icu.nullptr.hdapp.xposed.HMAService
+import icu.nullptr.hdapp.xposed.logE
+import icu.nullptr.hdapp.xposed.logI
 
 @TargetApi(Build.VERSION_CODES.S)
 class ZygoteArgsHook(private val service: HMAService) : IFrameworkHook {

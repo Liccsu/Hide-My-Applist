@@ -1,10 +1,10 @@
-package icu.nullptr.hidemyapplist.xposed
+package icu.nullptr.hdapp.xposed
 
 import android.content.pm.ApplicationInfo
 import android.content.pm.IPackageManager
 import android.os.Build
-import icu.nullptr.hidemyapplist.common.*
-import icu.nullptr.hidemyapplist.xposed.hook.*
+import icu.nullptr.hdapp.common.*
+import icu.nullptr.hdapp.xposed.hook.*
 import java.io.File
 
 class HMAService(val pms: IPackageManager) : IHMAService.Stub() {

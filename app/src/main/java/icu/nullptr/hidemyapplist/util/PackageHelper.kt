@@ -1,13 +1,13 @@
-package icu.nullptr.hidemyapplist.util
+package icu.nullptr.hdapp.util
 
 import android.content.pm.ApplicationInfo
 import android.content.pm.IPackageManager
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
-import icu.nullptr.hidemyapplist.common.Constants
-import icu.nullptr.hidemyapplist.hmaApp
-import icu.nullptr.hidemyapplist.service.PrefManager
+import icu.nullptr.hdapp.common.Constants
+import icu.nullptr.hdapp.hmaApp
+import icu.nullptr.hdapp.service.PrefManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.SharedFlow

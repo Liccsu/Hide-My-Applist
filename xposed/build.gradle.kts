@@ -12,7 +12,7 @@ plugins {
 val agpVersion: String by project
 
 android {
-    namespace = "icu.nullptr.hidemyapplist.xposed"
+    namespace = "icu.nullptr.hdapp.xposed"
 
     buildFeatures {
         buildConfig = false
@@ -29,7 +29,7 @@ afterEvaluate {
         val variantLowered = variant.name.toLowerCase(Locale.ROOT)
 
         val outSrcDir = file("$buildDir/generated/source/signInfo/${variantLowered}")
-        val outSrc = file("$outSrcDir/icu/nullptr/hidemyapplist/Magic.java")
+        val outSrc = file("$outSrcDir/icu/nullptr/hdapp/Magic.java")
         val signInfoTask = tasks.register("generate${variantCapped}SignInfo") {
             outputs.file(outSrc)
             doLast {
@@ -43,7 +43,7 @@ afterEvaluate {
                     sign?.keyAlias
                 )
                 PrintStream(outSrc).apply {
-                    println("package icu.nullptr.hidemyapplist;")
+                    println("package icu.nullptr.hdapp;")
                     println("public final class Magic {")
                     print("public static final byte[] magicNumbers = {")
                     val bytes = certificateInfo.certificate.encoded

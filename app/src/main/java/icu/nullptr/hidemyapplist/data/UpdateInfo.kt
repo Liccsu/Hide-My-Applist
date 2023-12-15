@@ -1,7 +1,7 @@
-package icu.nullptr.hidemyapplist.data
+package icu.nullptr.hdapp.data
 
-import icu.nullptr.hidemyapplist.common.Constants
-import icu.nullptr.hidemyapplist.service.PrefManager
+import icu.nullptr.hdapp.common.Constants
+import icu.nullptr.hdapp.service.PrefManager
 import kotlinx.serialization.Serializable
 import rxhttp.*
 import rxhttp.wrapper.param.RxHttp

@@ -1,11 +1,11 @@
-package icu.nullptr.hidemyapplist.ui.fragment
+package icu.nullptr.hdapp.ui.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.setFragmentResult
 import androidx.navigation.fragment.navArgs
-import icu.nullptr.hidemyapplist.service.ConfigManager
-import icu.nullptr.hidemyapplist.ui.adapter.AppScopeAdapter
-import icu.nullptr.hidemyapplist.ui.util.navController
+import icu.nullptr.hdapp.service.ConfigManager
+import icu.nullptr.hdapp.ui.adapter.AppScopeAdapter
+import icu.nullptr.hdapp.ui.util.navController
 
 class ScopeFragment : AppSelectFragment() {
 

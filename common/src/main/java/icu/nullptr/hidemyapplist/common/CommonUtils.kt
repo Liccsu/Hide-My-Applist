@@ -1,4 +1,4 @@
-package icu.nullptr.hidemyapplist.common
+package icu.nullptr.hdapp.common
 
 import android.os.SystemProperties
 

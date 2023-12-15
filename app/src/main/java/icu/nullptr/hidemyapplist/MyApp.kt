@@ -1,12 +1,12 @@
-package icu.nullptr.hidemyapplist
+package icu.nullptr.hdapp
 
 import android.annotation.SuppressLint
 import android.app.Application
-import com.tsng.hidemyapplist.R
-import icu.nullptr.hidemyapplist.service.ConfigManager
-import icu.nullptr.hidemyapplist.service.PrefManager
-import icu.nullptr.hidemyapplist.ui.receiver.AppChangeReceiver
-import icu.nullptr.hidemyapplist.ui.util.makeToast
+import com.example.hdapp.R
+import icu.nullptr.hdapp.service.ConfigManager
+import icu.nullptr.hdapp.service.PrefManager
+import icu.nullptr.hdapp.ui.receiver.AppChangeReceiver
+import icu.nullptr.hdapp.ui.util.makeToast
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import me.zhanghai.android.appiconloader.AppIconLoader

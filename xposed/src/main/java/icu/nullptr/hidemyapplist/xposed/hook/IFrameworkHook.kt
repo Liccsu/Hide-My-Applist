@@ -1,4 +1,4 @@
-package icu.nullptr.hidemyapplist.xposed.hook
+package icu.nullptr.hdapp.xposed.hook
 
 interface IFrameworkHook {
 
