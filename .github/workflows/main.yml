@@ -2,11 +2,12 @@ name: Main
 
 on:
   push:
-    branches: [ master ]
+    branches: [ dev ]
     paths-ignore:
       - '.github/ISSUE_TEMPLATE/**'
       - '.github/workflows/issue.yml'
       - '**.md'
+  workflow_dispatch:
 
 jobs:
   build:
